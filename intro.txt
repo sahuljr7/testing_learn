@@ -1,0 +1,24 @@
+Good evening everyone. Thank you giving me the opportunity to introduce myself. My name is Sahul. 
+I completed my bachelors of engineering from Chandigarh University.
+Currently, I am working as a Project Engineer in Wipro on the Hibu project.
+Right now, I’m working mainly on the dashboard part, where I help my team with building and improving dashboard features.
+I’m learning continuously, following best practices, and I’m eager to contribute and grow while delivering good-quality work.
+
+
+I work on dashboard-related tasks such as understanding requirements, implementing assigned features, 
+fixing issues, and testing my changes before delivery.
+
+
+Why we are migrating from Bootstrap 3 to Bootstrap 5 (simple words)
+
+“We are migrating from Bootstrap 3 to Bootstrap 5 to use a more modern and supported version of the framework.
+Bootstrap 5 has better performance, improved layout system, and is easier to maintain.
+Bootstrap 3 is outdated and no longer officially supported, so upgrading helps us keep the application more secure, responsive, and future-ready.”
+
+If you want an even shorter answer:
+
+“Bootstrap 3 is old and not supported anymore.
+Bootstrap 5 is faster, cleaner, and works better on modern browsers and devices, so the migration helps improve performance and long-term maintenance.”      
+
+
+I’m currently working on Jira card WPR-50, focusing on the profile component in the dashboard.
