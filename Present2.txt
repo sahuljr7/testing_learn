@@ -1,0 +1,46 @@
+“Now I’ll explain the different environments used during software development — Development, Staging, UAT, and Production and how they fit together.”
+
+2. Development Environment
+
+🟢 Slide Title:  Development Environment 
+“This is where developers write, test, and experiment with code.”
+“It’s like a workshop, where new ideas are built and tested.”
+“Bugs are common here because we’re creating and changing features.”
+“Example: a developer’s local system or a dedicated dev server.”
+
+3. Staging Environment
+🟢 Slide Title: Staging Environment
+“The staging environment is a replica of production.”
+“It’s used for final testing before going live.”
+“Think of it like a dress rehearsal before the main show.”
+“Here, the team tests everything as if it’s real — but no real users see it.”
+“Goal: Make sure everything works perfectly before the release.”
+
+4. UAT (User Acceptance Testing)
+🟢 Slide Title: UAT – User Acceptance Testing
+“UAT happens after staging and before production.”
+“Here, real users or clients test the application to confirm it meets their needs.”
+“If users approve it during UAT, the app is ready for the production environment.”
+
+5. Production Environment
+🟢 Slide Title: Production Environment
+“This is the live environment where real users interact with the application.”
+“It’s like the actual performance — everything must be stable, secure, and fast.”
+“Any bug here directly affects real customers, so testing before this stage is critical.”
+
+Flow Diagram:
+Development → Staging → UAT → Production
+
+“Here’s how it all connects:
+Developers build features in the Development stage.
+The internal team tests in Staging.
+Clients or users validate the work in UAT.
+Finally, it goes live in Production.”
+
+“So to wrap up —
+Development is for building,
+Staging is for internal testing,
+UAT is for client testing,
+and Production is the final live system.”
+
+“Each environment is a safety layer — ensuring quality before the product reaches real users.”
