@@ -22,3 +22,81 @@ Bootstrap 5 is faster, cleaner, and works better on modern browsers and devices,
 
 
 I’m currently working on Jira card WPR-50, focusing on the profile component in the dashboard.
+
+✅ What Hibu Does
+
+Hibu provides digital marketing solutions to businesses.
+They monitor data, track metrics, and analyze results to improve marketing performance.
+
+
+✅ Products
+
+Hibu offers different products like:
+
+Notifications
+Social products
+Website products
+
+
+Clients use these products to manage their marketing campaigns.
+
+
+✅ Development Process
+
+CI/CD (Continuous Integration/Continuous Deployment) is used for automation.
+Migration:
+Jenkins → CircleCI (for CI/CD)
+Bitbucket → GitHub (for code repository)
+
+Tech Stack:
+
+Frontend: Angular.js → Next.js
+Backend: Node.js APIs (fetch data)
+Database: MongoDB and (Document DB)
+Architecture: Microservices (each service has its own URL)
+
+
+✅ Workflow for New Requirements
+
+According to business requirement a new jira card will be created. Assigned to developers. (mockups, description and ui changes will be provided in the jira cards 
+
+Before starting development, 
+A new requirement is created as a Jira card.
+Developer works on local system, creates a branch with a standard naming convention.
+Push code → Create Pull Request (PR).
+Add reviewers:
+1 offshore
+1 onshore
+
+
+After approval and merging:   
+Code goes to UAT (User Acceptance Testing).
+Then to Staging.
+Finally to Production.
+
+✅ Security Measures
+All secrets and keys are stored in an .env file (never hardcoded).
+
+✅ Business ID
+Business ID = Main account number of the client.
+After registration, the system generates a Business ID.
+
+✅ Internal Login
+Used only by developers and QA.
+A dashboard tool is used for internal login.
+
+✅ Data Handling
+After registration:
+Business ID is generated.
+Products are displayed (social, website, etc.).
+
+Data is stored in cookies for session management.
+
+✅ Notification Flow
+Notifications can be sent via SMS or Email to clients.
+
+
+In Short:
+Hibu is a digital marketing platform that uses modern tech stack (Next.js, Node.js, MongoDB) and microservices architecture.
+Development follows CI/CD, code review, and secure practices.
+Clients get products and notifications, and all data is managed securely.
