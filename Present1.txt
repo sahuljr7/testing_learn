@@ -1,0 +1,60 @@
+1. Introduction 
+“Good morning everyone, today I’ll be presenting an overview of Hibu — a digital marketing platform that helps businesses grow online through data-driven marketing solutions.”
+
+2. What Hibu Does
+🟢 Slide Title: About Hibu
+Hibu provides digital marketing solutions to businesses. 
+They focus on monitoring data, tracking performance, and analyzing results to improve marketing effectiveness.
+
+3. Products
+🟢 Slide Title: Hibu’s Products
+“Hibu offers various digital products to manage marketing campaigns, such as:”
+Notifications (alerts via SMS or Email)
+Social Products (for social media management)
+Website Products (for creating and maintaining websites)
+
+4. Development Process
+🟢 Slide Title: How Development Works
+“Hibu follows CI/CD — Continuous Integration and Continuous Deployment — for automation.”
+“Recently, we migrated from Jenkins to CircleCI for CI/CD and from Bitbucket to GitHub for code repository management.”
+Tech Stack Overview:
+Frontend: Angular.js → Next.js
+Backend: Node.js APIs   An API is a messenger that lets two software systems talk to each other.
+Database: MongoDB & DocumentDB
+Architecture: Microservices (each service has its own URL)
+
+     
+5. Workflow for New Requirements
+🟢 Slide Title: Workflow for New Features
+“When a new business requirement comes in, a Jira card is created with all details — mockups, descriptions, and UI changes.”
+“Developers work on a new branch, push code, and raise a Pull Request (PR) for review.”
+“Each PR is reviewed by one onshore and one offshore reviewer.”
+“After approval, the code moves through environments: UAT → Staging → Production.”
+
+6. Security Measures
+🟢 Slide Title: Security & Best Practices
+“All secrets and keys are stored securely in a .env file, never hardcoded.”
+“This ensures security and consistency across environments.”
+
+7. Business ID & Internal Login
+🟢 Slide Title: System Components
+“Each client gets a Business ID, which acts as their main account number.”
+“After registration, the system generates this ID automatically.”
+“Developers and QA have access to an Internal Dashboard for login and testing.”
+
+8. Data Handling
+🟢 Slide Title: Data Handling & Session Management
+“After registration, Business ID is generated and products are displayed.”
+“Session data is stored in cookies for efficient session management.”
+
+9. Notification Flow
+🟢 Slide Title: Notifications
+“Clients receive notifications via SMS or Email to stay updated about their marketing activities.”
+
+10. Summary
+🟢 Slide Title: In Short
+“To summarize — Hibu is a modern digital marketing platform using a Next.js + Node.js + MongoDB tech stack, built on microservices architecture.
+It follows a secure, automated CI/CD process and ensures reliable, data-driven marketing solutions for clients.”
+
+“At Hibu, technology meets marketing — efficiently and securely.”
+
