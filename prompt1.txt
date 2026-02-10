@@ -1,0 +1,65 @@
+Analyze the entire codebase thoroughly, with special focus on test coverage gaps.
+
+I have a Jira ticket assigned to me titled “Tech only: Add test cases for builder package.” The Java class FormfillPushMessageBuilder currently has 42% code coverage, with 145 uncovered elements.
+
+Your task is to significantly increase code coverage by adding new unit test cases to FormfillPushMessageBuilderTest.java.
+
+Provided Inputs
+
+You will be given:
+
+The full source code for FormfillPushMessageBuilder
+
+The existing test class FormfillPushMessageBuilderTest.java
+
+What You Must Do
+
+Analyze both classes thoroughly.
+
+Identify uncovered logic, including:
+
+Conditional branches
+
+Edge cases
+
+Error paths
+
+Null / empty handling
+
+Boolean logic variations
+
+Add well-structured, meaningful unit tests that exercise this uncovered behavior.
+
+Ensure all new tests are:
+
+Correct
+
+Readable
+
+Purpose-driven (not superficial coverage)
+
+Effective in increasing overall coverage
+
+Mandatory Constraints
+
+❌ Do NOT modify the production class (FormfillPushMessageBuilder)
+
+❌ Do NOT change the existing test class structure
+
+❌ Do NOT refactor, rename, or reorganize any existing code
+
+✅ Only append or extend test methods as needed
+
+✅ Preserve the same package structure, imports, and naming conventions
+
+✅ Use JUnit and Mockito
+
+✅ Respect existing Spring Boot annotations and behavior
+
+Output Requirements
+
+Return only the updated test cases
+
+Do not include explanations, comments, or refactored code
+
+Keep the existing test file intact, with only additional or extended test methods.
